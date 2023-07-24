@@ -1,21 +1,21 @@
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    background: white;
-    background-image: url("/images/banner-bg-min.jpg");
+    background-color: white;
 }
-.header_content{
+
+.header_content {
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url('/images/banner-bg.jpg'); */
     background-image: url("/images/banner-bg-min.jpg");
+    background-size: cover;
+    background-position: center;
 }
