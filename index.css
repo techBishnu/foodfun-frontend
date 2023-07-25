@@ -134,6 +134,8 @@ body {
     font-family: "Roboto",sans-serif;
     color: #777;
 }
+
+
 .container-fluid .image-content .img-content button{
    padding:13px 20px;
    background: #ffb606;
@@ -216,7 +218,7 @@ body {
     
 
 }
-.container-items .items-details .items-div-details:hover{
+.container-items .items-details .items-div-details:hover {
     
     background: #ffb606;
     
@@ -226,6 +228,7 @@ body {
     height:300px ;
     width: 107%;
     margin-left:-14px;
+    overflow: hidden;
     /* border: 5px solid red; */
     /* overflow: hidden; */
 }
@@ -233,6 +236,11 @@ body {
     height:100% ;
     width: 100%;
     object-fit: cover;
+    transition: 0.6s;
+}
+.container-items .items-details .items-div-details .img-section img:hover{
+    transform: scale(1.25);/* added */
+  overflow: hidden;
 }
 .container-items .items-details .items-div-details .content-items{
     height: 40%;
