@@ -690,6 +690,8 @@ body {
     background: #131230;
     padding: 100px 0;
     font-family: "Playfair Display",serif;
+    overflow: hidden;
+
 }
 .footer .logo-section {
     padding: 10px 0;
@@ -754,6 +756,7 @@ body {
     justify-content: space-evenly;
     background: #0d0d27;
     align-items: center ;
+    overflow: hidden;
 }
 .footer-copyright h6{
     color: aliceblue;
